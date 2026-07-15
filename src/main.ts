@@ -26,6 +26,6 @@ async function bootstrap(): Promise<void> {
   app.useStaticAssets(join(__dirname, '..', 'public'), { prefix:'/public/' });
   const port = Number(process.env.PORT || 3000);
   await app.listen(port, '0.0.0.0');
-  console.log(`Modüler Masraf v20.1 çalışıyor: ${port}`);
+  console.log(`Modüler Masraf v20.1.1 çalışıyor: ${port}`);
 }
 bootstrap().catch(error=>{ console.error(error); process.exit(1); });

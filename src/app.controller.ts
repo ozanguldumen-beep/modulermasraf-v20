@@ -14,7 +14,7 @@ export class AppController {
     res.type('html').send(`<!doctype html><html lang="tr"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Modüler Masraf</title><link rel="stylesheet" href="/public/style.css"></head>
-<body><header class="topbar"><div><strong>MODÜLER MASRAF</strong><small>Enterprise v20.1</small></div>
+<body><header class="topbar"><div><strong>MODÜLER MASRAF</strong><small>Enterprise v20.1.1</small></div>
 <nav><a href="/">Ana Sayfa</a><a href="/health">Sistem Sağlığı</a><a href="/logout">Çıkış</a></nav></header>
 <main><section class="card"><h1>Hoş geldin, ${user.name}</h1>
 <p>Temel altyapı ve giriş sistemi çalışıyor.</p>

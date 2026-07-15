@@ -8,6 +8,6 @@ export class HealthController {
   @Get('health')
   async health() {
     await this.prisma.$queryRaw`SELECT 1`;
-    return { ok:true, version:'20.1.0', database:true, service:'moduler-masraf-v20' };
+    return { ok:true, version:'20.1.1', database:true, service:'moduler-masraf-v20' };
   }
 }

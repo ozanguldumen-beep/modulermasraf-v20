@@ -13,7 +13,7 @@ export class AuthController {
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Giriş</title><link rel="stylesheet" href="/public/style.css"></head>
 <body class="login-body"><section class="login-card"><h1>Modüler Masraf</h1>
-<p>Enterprise v20.1</p><form method="post" action="/login">
+<p>Enterprise v20.1.1</p><form method="post" action="/login">
 <label>E-posta</label><input name="email" type="email" required value="ozan@modulerotomasyon.com">
 <label>Şifre</label><input name="password" type="password" required value="123456">
 <button>Giriş Yap</button></form></section></body></html>`);
